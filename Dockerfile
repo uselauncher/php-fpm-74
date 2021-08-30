@@ -1,6 +1,6 @@
 # https://github.com/uselauncher/php-fpm-74
 # https://hub.docker.com/r/uselauncher/php-fpm-74
-FROM php:7.4-fpm
+FROM php:7.4-fpm-buster
 
 COPY --from=mlocati/php-extension-installer /usr/bin/install-php-extensions /usr/local/bin/
 
